@@ -138,8 +138,8 @@ parameters:
 - description: 'URI to check for app health'
   name: READINESS_PATH
   required: true
-  value: '/'
+  value: '/coco'
 - description: 'String value expected back from readiness check'
   name: READINESS_RESPONSE
   required: true
-  value: 'Hello World!'
+  value: 'Greetings from smatine !'
